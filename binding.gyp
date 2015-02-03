@@ -7,11 +7,11 @@
         ['OS=="linux"',
           {
             'include_dirs': [
-              '/tmp/include',
+              '/app/.heroku/vendor/include',
             ],
             'link_settings': {
               'libraries': [
-                '-lgmp', '-L/tmp/lib'
+                '-lgmp', '-L/app/.heroku/vendor/lib/'
               ]
             }
           }
