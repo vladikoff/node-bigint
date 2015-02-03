@@ -6,6 +6,9 @@
       'conditions': [
         ['OS=="linux"',
           {
+            'include_dirs': [
+              '/tmp/include',
+            ],
             'link_settings': {
               'libraries': [
                 '-lgmp'
