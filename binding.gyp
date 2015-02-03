@@ -11,7 +11,7 @@
             ],
             'link_settings': {
               'libraries': [
-                '-lgmp'
+                '-lgmp', '-L/tmp/lib'
               ]
             }
           }
