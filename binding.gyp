@@ -7,11 +7,11 @@
         ['OS=="linux"',
           {
             'include_dirs': [
-              '/tmp/gmp513ubuntu/include',
+              '/tmp/include',
             ],
             'link_settings': {
               'libraries': [
-                '-lgmp', '-L/tmp/gmp513ubuntu/lib'
+                '-lgmp', '-L/tmp/lib'
               ]
             }
           }
